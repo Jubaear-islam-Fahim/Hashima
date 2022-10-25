@@ -1,0 +1,61 @@
+.miner-area {
+    background: #000000;
+    padding: 112px 0;
+}
+
+.miner-text {
+    text-align: center;
+
+    span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+
+    .h2 {
+        font-family: 'Azeret Mono';
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        color: #FFFFFF;
+
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #FFFFFF;
+        max-width: 500px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+}
+
+.miner-img {
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+
+    img {
+        width: 100%;
+    }
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 54%;
+        height: 100%; 
+        background-size: cover;
+        z-index: -1;
+        text-align: center;
+        margin: 0 auto;
+        background: url('../../image/bg-shape.svg') no-repeat center;
+
+    }
+}

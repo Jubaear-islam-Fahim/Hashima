@@ -1,0 +1,58 @@
+.call-to-action {
+    background: #000000;
+    padding: 130px 0;
+}
+
+.call-to-action-text {
+    .h2 {
+        font-family: 'Azeret Mono';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #FFFFFF;
+
+    }
+}
+
+.call-to-action-form {
+    .sing-box {
+        display: flex;
+        gap: 15px
+    }
+
+    input {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #5D5C5D;
+        background: #08080D;
+        border: 1px solid #FFFFFF;
+        border-radius: 6px;
+        outline: 0;
+        box-shadow: none;
+        width: 100%;
+        padding: 12px;
+        height: 48px;
+    }
+
+    button {
+        width: 108px;
+        height: 48px;
+        border: unset;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding-top: 16px;
+    }
+}

@@ -1,0 +1,346 @@
+// Google Fonts
+// font-family: 'Inter', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+// font-family: 'Azeret Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;500;600;700&display=swap');
+// font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+// Font Awesome
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+// Light Gallery
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-zoom.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-video.css');
+
+
+// Quick code
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	box-shadow: none;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+	font-family: 'Inter', sans-serif;
+	background: #F4F6F8 !important;
+}
+div#root {
+	overflow: hidden;
+}
+ol,
+ul {
+	list-style: none;
+}
+ 
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.bg-c {
+	background: #f2f2f2;
+}
+.btn-lg {
+  padding: 12px 16px;
+  background: #21013E;
+  border-radius: 6px;
+  min-width: 190px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+	text-decoration: none;
+	display: inline-flex; 
+	align-items: center;
+	justify-content: center; 
+	gap: 15px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	transition: all 0.3s linear;
+	cursor: pointer;
+	text-transform: capitalize;
+	&:after {
+		position: absolute;
+		content: "";
+		top: 100%;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		background-color: #CC68CE;
+		z-index: -1;
+		transition: all 0.3s linear;
+	}
+	&:hover {
+		color: #fff;
+		&:after {
+			top: 0;
+		}
+	}
+	@media (max-width: 767.98px) {
+		font-size: 19px;
+		padding: 0 24px;
+		height: 55px;
+		min-width: 300px;
+	}
+}
+.btn-md {
+	font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%; 
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;  
+  color: #FFFFFF;
+  background: #CC68CE;
+  border-radius: 6px;
+  padding: 12px 16px;
+  text-decoration: none;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	transition: all 0.3s linear;
+	cursor: pointer;
+	text-transform: capitalize;
+	&:after {
+		position: absolute;
+		content: "";
+		top: 100%;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		background-color: #fff;
+		z-index: -1;
+		transition: all 0.3s linear;
+	}
+	&:hover {
+		color: #CC68CE;
+		&:after {
+			top: 0;
+		}
+	}
+}
+.read-more{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%; 
+  color: #FFFFFF;
+  position: relative;
+  text-decoration: none;
+  &::after{
+    content: "\f105";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    margin-left: 10px;
+  }
+
+}
+.btn-md-primary {
+	color: #ad1aaf;
+	border-color: #ad1aaf;
+	&::before,
+	&::after {
+		background-color: #ad1aaf;
+	}
+}
+
+.btn-close {
+	// filter: invert(100%) sepia(1%) saturate(0%) hue-rotate(167deg) brightness(105%) contrast(102%);
+	float: right;
+}
+
+.text-xs-center {
+	@media (max-width: 767.98px) {
+		text-align: center;
+	}
+}
+@media (max-width: 991.98px) {
+	.row-gap {
+		row-gap: 30px;
+	}
+}
+
+.navbar-toggler {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.responsive {
+	width: 100%;
+} 
+.section-title {
+	position: relative;
+	padding-bottom: 50px;
+	.h2 {
+		font-weight: 700;
+		font-size: 50px;
+		line-height: 140%;
+		color: #212427;
+		
+		margin-bottom: 20px;
+
+	}
+	p{
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 160%;  
+		color: #777A82;
+		margin-bottom: 0;
+	} 
+	@media (max-width: 767.98px) {
+		font-size: 30px;
+		.h2 {
+			font-size: 27px;
+		}
+		p{
+			br{
+				display: none;
+			}
+		}
+	}
+}
+.section-title.border-left {
+	&::after {
+		margin: 0;
+	}
+}
+.text-primary {
+	color: #ad1aaf !important;
+}
+
+
+// .modal .btn-close {
+//     position: absolute;
+//     top: -27px;
+//     right: 0;
+//     opacity: 1;
+// }
+.nav-link {
+	cursor: pointer;
+}
+.pt-100 {
+	padding-top: 100px;
+}
+.pb-100 {
+	padding-bottom: 100px;
+}
+.py-100 {
+	padding: 100px 0;
+}
+
+.pt-110 {
+	padding-top: 110px;
+}
+.pb-110 {
+	padding-bottom: 110px;
+}
+.py-110 {
+	padding: 110px 0;
+}
+
+.pt-120 {
+	padding-top: 120px;
+}
+.pb-120 {
+	padding-bottom: 120px;
+}
+.py-120 {
+	padding: 120px 0;
+}
+
+.pt-130 {
+	padding-top: 130px;
+}
+.pb-130 {
+	padding-bottom: 130px;
+}
+.py-130 {
+	padding: 130px 0;
+}
+
+@media (max-width: 991.98px) {
+	.pt-100 {
+		padding-top: 80px;
+	}
+	.pb-100 {
+		padding-bottom: 80px;
+	}
+	.py-100 {
+		padding: 80px 0;
+	}
+
+	.pt-110 {
+		padding-top: 85px;
+	}
+	.pb-110 {
+		padding-bottom: 85px;
+	}
+	.py-110 {
+		padding: 85px 0;
+	}
+
+	.pt-120 {
+		padding-top: 85px;
+	}
+	.pb-120 {
+		padding-bottom: 85px;
+	}
+	.py-120 {
+		padding: 85px 0;
+	}
+
+	.pt-130 {
+		padding-top: 90px;
+	}
+	.pb-130 {
+		padding-bottom: 90px;
+	}
+	.py-130 {
+		padding: 90px 0;
+	}
+}

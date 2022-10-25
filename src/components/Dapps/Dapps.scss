@@ -1,0 +1,73 @@
+.Dapps-area {
+    background: #000000;
+    padding: 80px 0;
+ 
+    
+}
+
+.dapps-text {
+    span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+
+    }
+
+    .h2 {
+        font-family: 'Azeret Mono';
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        color: #FFFFFF;
+        padding-top: 16px;
+    }
+
+    p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+}
+
+.dapps-slid {
+    margin: 48px -10px 0;
+    .slick-slide {
+        padding: 5px;
+    }
+    .dapps-item {
+        background: #08080D;
+        border-radius: 5px;
+        padding: 28px;
+        text-align: center;
+        transition: all .3s;
+        cursor: pointer;
+        &:hover{
+            background: #F4F4F4;
+            span,p{
+                color: #08080D;
+            }
+        }
+
+        img {
+            margin: 14px auto;
+        }
+
+        span {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF; 
+        }
+
+        p {
+            margin-bottom: 0;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            color: #FFFFFF;
+
+        }
+    }
+}

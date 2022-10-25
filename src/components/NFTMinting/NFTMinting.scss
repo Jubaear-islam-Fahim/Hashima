@@ -1,0 +1,56 @@
+.NFTMinting-area {
+    background: #21013E;
+    padding: 112px 0;
+    .read-more{
+        margin-top: 40px;
+        display: inline-block;
+    }
+}
+
+.minting-left {
+    span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        color: #fff;
+
+    }
+
+    .h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        color: #FFFFFF;
+        max-width: 480px;
+    }
+}
+
+.minting-right {
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #FFFFFF;
+
+    }
+
+    .minting-item {
+        margin-top: 40px;
+        .h6 {
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 150%;
+            color: #FFFFFF;
+            padding-top: 16px;
+
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+    }
+}

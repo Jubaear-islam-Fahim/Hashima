@@ -1,0 +1,51 @@
+.banner-area {
+    background: #21013E;
+}
+
+.banner-content {
+    margin: 80px 0;
+    background: linear-gradient(91deg, #F2D0CF -86.67%, #F4B4FE 158.43%, #9EB3F7 388.67%);
+    border-radius: 8px;
+    display: flex;
+
+    .banner-text {
+        padding: 80px 0 120px 87px;
+        max-width: 692px;
+
+        span {
+            font-family: 'Azeret Mono';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: 2px;
+            color: #181818;
+            padding-bottom: 12px;
+        }
+
+        h1 {
+            font-family: 'Azeret Mono';
+            font-weight: 700;
+            font-size: 80px;
+            line-height: 88px;
+            letter-spacing: -6px;
+            color: #181818;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            color: #08080D;
+            padding: 20px 0;
+        }
+
+        .btn-lg { 
+
+        }
+    }
+
+    .banner-img {
+        margin-left: auto;
+        align-self: flex-end;
+    }
+}
