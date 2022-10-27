@@ -1,0 +1,53 @@
+.PopupOnload {
+    .modal-content {
+        max-width: 688px;
+        padding: 120px 64px;
+        background: #08080D;
+        margin: 0 auto;
+
+        img {
+            border-radius: 10px;
+        }
+    }
+
+    .h2 {
+        font-family: 'Azeret Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 130%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 35px;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+
+    .form {
+        display: flex;
+        gap: 15px;
+        margin-top: 35px;
+
+        input {
+            background: #08080D;
+            border: 1px solid #FFFFFF;
+            border-radius: 6px;
+            width: 100%;
+            padding: 0 15px;
+            color: #FFFFFF;
+        }
+
+        .btn-md {
+            min-width: 136px;
+        }
+    }
+}

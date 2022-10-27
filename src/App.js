@@ -16,12 +16,15 @@ import Miner from "./components/Miner/Miner";
 import BuildPowerful from "./components/BuildPowerful/BuildPowerful";
 import CallToAction from "./components/CallToAction/CallToAction";
 import Footer from "./components/global/Footer/Footer";
+import PopupOnload from "./components/PopupOnload/PopupOnload";
 
 function App() {
   return (
     <div className="App">
+      
       <Header/>
       <Banner/>
+      <PopupOnload/>
       <Features/>
       <NFTMinting/>
       <Developers/>
