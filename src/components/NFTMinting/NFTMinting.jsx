@@ -8,16 +8,28 @@ const NFTMinting = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <div className="minting-left">
-                            <span>Hashima</span>
-                            <div className="h2">NFT Minting Standard</div>
+                        <div className="minting-right minting-left">
+                            <div className="d-lg-none d-xl-block">
+                                <span>Hashima</span>
+                                <div className="h2">NFT Minting Standard</div>
+                            </div>
+                            <div className="d-lg-none">
+                                <p>New NFT minting model based on POW mining, developed to harden and bring scarcity to the tokenized asset industry.</p>
+                            </div>
+                            
                             <img src={mintingImg} alt="" />
                         </div>
                     </div>
                     <div className="col-lg-6 align-self-center">
-                        <div className="minting-right">
+                        <div className="minting-right minting-left minting-text">
+                            <div className="d-none d-lg-block">
+                                <span>Hashima</span>
+                                <div className="h2">NFT Minting Standard</div>
+                            </div>
+                            <div className="d-none d-lg-block">
                             <p>New NFT minting model based on POW mining, developed to harden and bring scarcity to the tokenized asset industry.</p>
-                            <div className="row">
+                            </div>
+                            <div className="row minting-ser">
                                 <div className="col-lg-6">
                                     <div className="minting-item">
                                         <img src={vector} alt="" />

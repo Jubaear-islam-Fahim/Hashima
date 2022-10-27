@@ -14,7 +14,7 @@ const Features = () => {
                             <p>1st Hashima based NFT collection, created by the Hashima Developer.</p> 
                         </div>
                     </div>
-                    <div className="col-lg-6 align-self-center">
+                    <div className="col-lg-6 features-order align-self-center">
                         <div className="features-gallery">
                             <div className="main-img">
                                 <img src={features1} alt="" />
@@ -32,7 +32,7 @@ const Features = () => {
                                 <div className="h2">Nakamoto Genesis Mint</div>
                                 <p>1st Hashima based NFT collection, created by the Hashima Developer.</p>
                             </div>
-                            <div className="btn-group d-lg-flex align-items-center gap-4">
+                            <div className="btn-groups d-lg-flex align-items-lg-center gap-4">
                                 <a href="/" className="btn-md">MINT NOW</a>
                                 <a href="/" className='read-more'>Visit Secondary Market</a>
                             </div>

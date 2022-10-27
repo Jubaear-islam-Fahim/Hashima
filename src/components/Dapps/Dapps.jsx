@@ -36,19 +36,33 @@ const Dapps = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 5,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [ 
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 3, 
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2, 
+              }
+            }
+          ]
     };
     return (
         <div className="Dapps-area">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-3 col-xl-6">
                         <div className="dapps-text">
                             <span>See what’s being built</span>
                             <div className="h2">Hashima Dapps</div>
                         </div>
                     </div>
-                    <div className="col-lg-6 align-self-end">
+                    <div className="col-lg-7 col-xl-5 ms-auto align-self-end align-self-lg-center">
                         <div className="dapps-text">
                             <p className="mb-0">We are working with several projects that will be building 
                             utility for the Hashima NFTs  and expanding the Protocol in innovative ways.</p>

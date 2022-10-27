@@ -44,7 +44,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1.2;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter';
 	background: #F4F6F8 !important;
 }
 div#root {
@@ -74,6 +74,7 @@ p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
+	font-family: 'Inter';
 }
 .bg-c {
 	background: #f2f2f2;
@@ -117,7 +118,7 @@ p {
 		}
 	}
 	@media (max-width: 767.98px) {
-		font-size: 19px;
+		font-size: 16px;
 		padding: 0 24px;
 		height: 55px;
 		min-width: 300px;
@@ -125,20 +126,20 @@ p {
 }
 .btn-md {
 	font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%; 
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;  
-  color: #FFFFFF;
-  background: #CC68CE;
-  border-radius: 6px;
-  padding: 12px 16px;
-  text-decoration: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%; 
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;  
+	color: #FFFFFF;
+	background: #CC68CE;
+	border-radius: 6px;
+	padding: 10px 16px;
+	text-decoration: none;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -162,6 +163,9 @@ p {
 			top: 0;
 		}
 	}
+	@media (max-width: 991.98px){
+		width: 100%;
+	}
 }
 .read-more{
   font-family: 'Inter';
@@ -177,6 +181,9 @@ p {
     font-family: "Font Awesome 6 free";
     font-weight: 900;
     margin-left: 10px;
+  }
+  &:hover{
+	color: #ad1aaf;
   }
 
 }

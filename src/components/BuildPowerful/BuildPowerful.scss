@@ -6,16 +6,21 @@
 .build-img {
     padding: 100px;
     position: relative;
+    z-index: 1;
 
     &::before {
-        content: '';
+        content: "";
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: url('../../image//build-bg.svg') no-repeat center;
+        top: -43px;
+        left: -25%;
+        right: 0;
+        width: 150%;
+        height: 136%;
         background-size: cover;
+        z-index: -1;
+        text-align: center;
+        margin: 0 auto;
+        background: url('../../image/bg-shape.svg') no-repeat center; 
     }
 
     img {
@@ -24,6 +29,8 @@
 }
 
 .build-text {
+    position: relative;
+    z-index: 1;
     span {
         font-weight: 600;
         font-size: 16px;
@@ -55,4 +62,38 @@
 .build-token{
     margin-bottom: -90px;
 }
- 
+
+@media (max-width: 1199.98px){
+    .build-img::before{
+        display: none;
+    }
+    .build-text .h2 { 
+        font-size: 40px; 
+    }
+    .build-token{
+        display: none; 
+    }
+    .build-area{
+        padding-bottom: 112px;
+    }
+    .build-img img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991.98px){
+    .build-area{
+        padding: 64px 0;
+    }
+    .build-img {
+        padding: 50px; 
+    }
+    .build-token {
+        display: block;
+        margin-bottom: 0;
+        padding-top: 50px;
+    }
+    .build-text .h2 {
+        font-size: 32px;
+    }
+}

@@ -5,6 +5,8 @@
 
 .miner-text {
     text-align: center;
+    position: relative;
+    z-index: 1;
 
     span {
         font-weight: 600;
@@ -40,22 +42,55 @@
     z-index: 1;
     margin-left: auto;
 
-    img {
-        width: 100%;
-    }
-
     &::before {
+        content: '';
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
-        width: 54%;
-        height: 100%; 
+        width: 80%;
+        height: 135%;
         background-size: cover;
         z-index: -1;
         text-align: center;
         margin: 0 auto;
         background: url('../../image/bg-shape.svg') no-repeat center;
-
+        margin-top: -100px;
     }
+
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1199.98px){
+    .miner-img::before { 
+        width: 100%;
+        height: 163%; 
+        margin-top: -36px;
+    }
+    .miner-text .h2 { 
+        font-size: 40px; 
+    }
+    .miner-text p { 
+        max-width: 700px; 
+    }
+    
+}
+
+@media (max-width: 991.98px){
+    .miner-area{
+        padding: 64px 0;
+    }
+    .miner-img::before {
+        width: 100%;
+        height: 136%;
+        margin-top: -47px;
+        background-size: cover;
+    }
+    .miner-text .h2 {
+        font-size: 32px;
+        padding-top: 10px;
+    }
+    
 }

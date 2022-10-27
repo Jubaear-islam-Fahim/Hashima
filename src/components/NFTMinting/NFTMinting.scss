@@ -43,7 +43,7 @@
             line-height: 150%;
             color: #FFFFFF;
             padding-top: 16px;
-
+            margin-bottom: 0;
         }
 
         p {
@@ -52,5 +52,53 @@
             line-height: 150%;
             color: #FFFFFF;
         }
+    }
+}
+
+@media (max-width: 1199.98px){
+    .minting-ser{
+        display: none;
+    }
+    .minting-left{
+        img{
+            width: 100%;
+        }
+    }
+    .minting-left .h2 { 
+        font-size: 40px; 
+        max-width: 345px;
+    }
+    .minting-right p { 
+        font-size: 15px; 
+        padding-top: 24px;
+    }
+    .minting-text{
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 991.98px){
+    .minting-ser {
+        display: block;
+        img{
+            width: 48px;
+            height: 48px;
+        }
+    }
+    .minting-left img { 
+        margin: 30px 0 10px;
+    }
+    .NFTMinting-area { 
+        padding: 65px 0;
+    }
+    .minting-text {
+        padding-left: 0;
+    }
+    .minting-right .minting-item {
+        margin-top: 20px;
+    }
+    .minting-left .h2 {
+        font-size: 32px;
+        max-width: 300px;
     }
 }

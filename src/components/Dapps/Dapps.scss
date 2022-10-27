@@ -36,17 +36,17 @@
     .slick-slide {
         padding: 5px;
     }
-    .dapps-item {
-        background: #08080D;
+    .dapps-item { 
+        background: #F4F4F4;
         border-radius: 5px;
         padding: 28px;
         text-align: center;
         transition: all .3s;
         cursor: pointer;
         &:hover{
-            background: #F4F4F4;
+            background: #08080D;
             span,p{
-                color: #08080D;
+                color: #F4F4F4;
             }
         }
 
@@ -57,17 +57,52 @@
         span {
             font-weight: 500;
             font-size: 16px;
-            line-height: 150%;
-            color: #FFFFFF; 
+            line-height: 150%; 
         }
 
         p {
             margin-bottom: 0;
             font-weight: 500;
             font-size: 18px;
-            line-height: 150%;
-            color: #FFFFFF;
+            line-height: 150%; 
 
         }
+    }
+}
+
+@media (max-width: 1199.98px){
+    .dapps-text .h2{
+        font-size: 40px;
+    }
+    .dapps-slid .dapps-item { 
+        padding: 14px; 
+    }
+    .dapps-slid .dapps-item img { 
+        height: 72px;
+        object-fit: contain;
+    }
+    .dapps-slid .dapps-item p { 
+        font-size: 14px; 
+    }
+    .dapps-slid .dapps-item span { 
+        font-size: 12px; 
+    }
+    
+    
+}
+
+@media (max-width: 991.98px){
+    .Dapps-area { 
+        padding: 64px 0;
+    }
+    .slick-prev, .slick-next{
+        display: none !important;
+    }
+    .dapps-text .h2 {
+        font-size: 32px;
+        padding-bottom: 14px;
+    }
+    .dapps-text p {
+        font-weight: 400; 
     }
 }

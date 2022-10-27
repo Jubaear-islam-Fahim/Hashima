@@ -56,3 +56,36 @@
         padding-top: 16px;
     }
 }
+
+@media (max-width: 1199.98px){
+    .call-to-action-text{
+        text-align: center;
+        p{
+            max-width: 422px;
+            margin: 0 auto;
+        }
+    }
+    .call-to-action-form{
+        max-width: 513px;
+        margin: 0 auto;
+        padding-top: 64px;
+    }
+}
+
+@media (max-width: 991.98px){
+    .call-to-action{
+        padding: 64px 0;
+    }
+    .call-to-action-text {
+        text-align: left;
+        .h2{
+            padding-bottom: 20px;
+        }
+    }
+    .call-to-action-form .sing-box {
+        display: grid; 
+    }
+    .call-to-action-form button {
+        width: 100%; 
+    }
+}

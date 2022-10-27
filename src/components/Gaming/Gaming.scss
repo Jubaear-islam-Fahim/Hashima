@@ -1,8 +1,10 @@
 .gaming-area {
     background: #000000;
+    border-top: 0.2px solid #151515;
     padding: 112px 0;
     position: relative;
     z-index: 1;
+
 
     .gaming-bg {
         font-family: "Azeret Mono";
@@ -46,8 +48,45 @@
         max-width: 500px;
 
     }
-    .read-more{
+
+    .read-more {
         margin-top: 40px;
         display: inline-block;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .gaming-img {
+        img {
+            width: 100%;
+        }
+    }
+
+    .gaming-area .gaming-bg { 
+        font-size: 214px; 
+        line-height: 90px; 
+        margin-bottom: -10%;
+    }
+    .gaming-text .h2 { 
+        font-size: 40px; 
+    }
+    .gaming-text p { 
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 991.98px){
+    .gaming-area{
+        padding: 64px 0;
+    }
+    .gaming-order{
+        order: 1;
+        padding-top: 46px;
+    }
+    .gaming-area .gaming-bg{
+        display: none;
+    }
+    .gaming-text .h2 {
+        font-size: 32px;
     }
 }

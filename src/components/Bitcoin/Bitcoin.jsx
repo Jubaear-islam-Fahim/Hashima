@@ -14,6 +14,12 @@ const Bitcoin = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 align-self-center">
+                        <div className="d-lg-none pt-4">
+                            <div className="deve-btn d-flex gap-4 align-items-center">
+                                <a href="/" className='read-more read-rou'>Start Building</a>
+                                <a href="/" className='read-more'>Read Docs</a>
+                            </div>
+                        </div>
                         <div className="bitcoin-img">
                             <img src={bitcoin} alt="" />
                         </div>

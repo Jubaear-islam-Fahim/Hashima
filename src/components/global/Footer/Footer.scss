@@ -7,7 +7,7 @@
     }
 }
 
-.footer-widget{
+.footer-widget {
     padding-bottom: 64px;
 }
 
@@ -54,5 +54,35 @@
         line-height: 150%;
         text-decoration-line: underline;
         color: #FFFFFF;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .footer-widget {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .footer-area {
+        padding: 64px 0;
+    }
+
+    .policy-list {
+        gap: 12px;
+        justify-content: start;
+    }
+
+    .footer-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 30px;
+        a{
+            text-align: left;
+            &:nth-child(even){
+                text-align: right;
+
+            }
+        }
     }
 }

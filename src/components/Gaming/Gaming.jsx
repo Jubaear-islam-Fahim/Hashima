@@ -9,12 +9,12 @@ const Gaming = () => {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 gaming-order">
                         <div className="gaming-img">
                             <img src={gaming} alt="" />
                         </div>  
                     </div>
-                    <div className="col-lg-6 align-self-center">
+                    <div className="col-lg-6 align-self-xl-center">
                         <div className="gaming-text">
                             <span>Hashima for developers</span>
                             <div className="h2">NFT Gaming</div>

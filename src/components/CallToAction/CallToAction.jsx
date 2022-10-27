@@ -5,13 +5,13 @@ const CallToAction = () => {
         <div className="call-to-action">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
                         <div className="call-to-action-text">
                             <div className="h2">Get the latest from Hashima</div>
                             <p>Share your email to recieve guides and news from us</p>
                         </div>
                     </div>
-                    <div className="col-lg-5 ms-auto">
+                    <div className="col-xl-5 ms-auto">
                         <div className="call-to-action-form">
                             <div className="sing-box">
                                 <input type="email" placeholder='Enter your email' />
