@@ -1,5 +1,5 @@
 .gaming-area {
-    background: #000000;
+    background: #08080D;
     border-top: 0.2px solid #151515;
     padding: 112px 0;
     position: relative;
@@ -53,6 +53,9 @@
         margin-top: 40px;
         display: inline-block;
     }
+}
+.gaming-img img {
+    mix-blend-mode: lighten;
 }
 
 @media (max-width: 1199.98px) {
