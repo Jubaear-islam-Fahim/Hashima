@@ -37,16 +37,18 @@
         padding: 5px;
     }
     .dapps-item { 
-        background: #F4F4F4;
+        background: #08080D;
+        color: #F4F4F4;
         border-radius: 5px;
         padding: 28px;
         text-align: center;
         transition: all .3s;
         cursor: pointer;
         &:hover{
-            background: #08080D;
+            
+            background: #F4F4F4;
             span,p{
-                color: #F4F4F4;
+                color: #08080D;
             }
         }
 

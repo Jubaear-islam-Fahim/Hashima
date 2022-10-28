@@ -42,12 +42,16 @@ const Dapps = () => {
               breakpoint: 600,
               settings: {
                 slidesToShow: 3, 
+                autoplay: true,
+                autoplaySpeed: 2000,
               }
             },
             {
               breakpoint: 480,
               settings: {
                 slidesToShow: 2, 
+                autoplay: true,
+                autoplaySpeed: 2000,
               }
             }
           ]

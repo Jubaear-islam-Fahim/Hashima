@@ -12,8 +12,9 @@
         font-weight: 600;
         font-size: 16px;
         line-height: 150%;
-        color: #fff;
-
+        color: #000;
+        display: inline-block;
+        padding-bottom: 12px;
     }
 
     .h2 {
@@ -55,6 +56,12 @@
     }
 }
 
+.minting-main-img{
+    img{
+        width: 90%;
+    }
+}
+
 @media (max-width: 1199.98px){
     .minting-ser{
         display: none;
@@ -89,7 +96,7 @@
         margin: 30px 0 10px;
     }
     .NFTMinting-area { 
-        padding: 65px 0;
+        padding: 32px 0 65px;
     }
     .minting-text {
         padding-left: 0;

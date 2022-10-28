@@ -3,6 +3,11 @@
     box-shadow: inset 0px -1px 0px #000000;
 
     .wallet {}
+    .btn-md{
+        border: 0;
+        outline: none;
+        box-shadow: none;
+    }
 
     .offcanvas {
         max-width: 420px;

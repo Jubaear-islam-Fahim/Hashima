@@ -38,7 +38,7 @@ const Footer = () => {
                         <div className="policy-list">
                             <a href="/">Privacy Policy</a>
                             <a href="/">Terms of Service</a>
-                            <a href="/">Cookies Settings</a> 
+                            <a href="/" className='d-none d-lg-block'>Cookies Settings</a> 
                         </div>
                     </div>
                 </div>

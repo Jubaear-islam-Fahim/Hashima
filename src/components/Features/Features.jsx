@@ -9,7 +9,8 @@ const Features = () => {
                 <div className="row">
                     <div className="col-lg-6 d-lg-none">
                         <div className="features-text"> 
-                            <span>Tagline</span>
+                            <span className='d-none d-lg-block'>Tagline</span>
+                            <span className='d-lg-none'>Features</span>
                             <div className="h2">Nakamoto Genesis Mint</div>
                             <p>1st Hashima based NFT collection, created by the Hashima Developer.</p> 
                         </div>
